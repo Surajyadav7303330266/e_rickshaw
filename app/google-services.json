@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356382292997",
+    "firebase_url": "https://rickshaw-4d9f5.firebaseio.com",
+    "project_id": "rickshaw-4d9f5",
+    "storage_bucket": "rickshaw-4d9f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356382292997:android:36d52bd5ab108937aaf06c",
+        "android_client_info": {
+          "package_name": "com.example.rickshaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356382292997-d6euphpg96uhtp0a8fdecppf3d21srti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rickshaw",
+            "certificate_hash": "bfca239310c283848e086b163582981236e9ddbb"
+          }
+        },
+        {
+          "client_id": "356382292997-u929ni8d22pso3hri3hc6bh1r3kdamm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx4qwEwkLdstYkkR52T9Xzv3Ms-p3zEd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356382292997-u929ni8d22pso3hri3hc6bh1r3kdamm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

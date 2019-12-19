@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".WelcomeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Choose What You Are ?"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="27sp"
+                android:textColor="#000000"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/splashimg"/>
+            <Button
+                android:id="@+id/customer_welcome_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="-270dp"/>
+            <Button
+                android:id="@+id/driver_welcome_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="driver"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:background="@color/red"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
